@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact</title>
+    <style>
+        *{
+            color:indigo;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            background-color: aqua;
+            text-decoration: underline;
+        }
+        b{
+            color: blue;
+        }
+        b:hover{
+            color: brown;
+        }
+        label{
+            color: brown;
+        }
+        
+        div{
+            margin-left: 50px;
+        }
+        button{
+            margin-left: 50px;
+            color: aliceblue;
+            background-color: rgb(7, 135, 129);
+            width: 100px;
+            height: 40px;
+            font-weight: bold;
+            font-size: large;
+        }
+        button:hover{
+            background-color: crimson;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(28, 42, 4);
+        }
+        a:hover{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        marquee{
+            color: red;
+            background-color: rgb(215, 221, 93);
+        }
+    </style>
+</head>
+<body>
+    <h1>CONTACT</h1>
+    <marquee direction="left">for more info call 7004052008 .</marquee>
+    <p>I am <b>Ankit Kumar Mishra</b> . <br>Pursuing <b>MCA</b> from Goa University, Goa, India.<br>If you have any medical emergency or you want to contact me :</p>
+    <div>
+        <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br>
+        <input  type="text" name="name" id="name" placeholder="Enter your name here"/>
+        <br/><br/>
+        <label for="email">Email_ID: </label><br>
+        <input type="email" name="email" id="email" placeholder="eg: abc45@gmail.com">
+        <br/><br/>
+        <label for="Contact">Contact: &nbsp;&nbsp;&nbsp;</label><br>
+        <input type="text" name="Contact" placeholder="+9100000000000">
+        <br/><br/>
+        <label for="Description">Description:</label><br/>
+        <textarea name="description" id="description" cols="16" rows="3" placeholder="Write what do you want to ask the author"></textarea>
+        <br/>
+    </div>
+    
+    <br/>
+    <button type="submit">Mail me</button>
+    <br/><br/><br>
+</body>
+</html>
